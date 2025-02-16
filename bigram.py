@@ -12,7 +12,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
 # ------------
 
-torch.manual_seed(1337)
+torch.manual_seed(3007)
 
 with open('cleaned_dataset.txt', 'r', encoding='utf-8') as f:
     text = f.read()
@@ -126,40 +126,17 @@ print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
 # This was my output lol:
 # ======================
 
-# step 0: train loss 4.8967, val loss 4.8902
-# step 300: train loss 2.8335, val loss 2.8190
-# step 600: train loss 2.5418, val loss 2.5389
-# step 900: train loss 2.4926, val loss 2.4801
-# step 600: train loss 2.5418, val loss 2.5389
-# step 900: train loss 2.4926, val loss 2.4801
-# step 1200: train loss 2.4656, val loss 2.4609
-# step 1500: train loss 2.4646, val loss 2.4421
-# step 1200: train loss 2.4656, val loss 2.4609
-# step 1500: train loss 2.4646, val loss 2.4421
-# step 1800: train loss 2.4539, val loss 2.4479
-# step 2100: train loss 2.4395, val loss 2.4500
-# step 1500: train loss 2.4646, val loss 2.4421
-# step 1800: train loss 2.4539, val loss 2.4479
-# step 2100: train loss 2.4395, val loss 2.4500
-# step 1800: train loss 2.4539, val loss 2.4479
-# step 2100: train loss 2.4395, val loss 2.4500
-# step 2400: train loss 2.4451, val loss 2.4301
-# step 2100: train loss 2.4395, val loss 2.4500
-# step 2400: train loss 2.4451, val loss 2.4301
-# step 2700: train loss 2.4464, val loss 2.4290
-# step 2400: train loss 2.4451, val loss 2.4301
-# step 2700: train loss 2.4464, val loss 2.4290
-# step 2700: train loss 2.4464, val loss 2.4290
+# step 0: train loss 4.9602, val loss 4.9504
+# step 300: train loss 2.8486, val loss 2.8309
+# step 600: train loss 2.5436, val loss 2.5322
+# step 900: train loss 2.4964, val loss 2.4805
+# step 1200: train loss 2.4722, val loss 2.4502
+# step 1500: train loss 2.4560, val loss 2.4509
+# step 1800: train loss 2.4572, val loss 2.4413
+# step 2100: train loss 2.4448, val loss 2.4392
+# step 2400: train loss 2.4413, val loss 2.4366
+# step 2700: train loss 2.4488, val loss 2.4415
 
 
-
-# Shelug llee, evonk Bavey abld t sin he ht le tod Bl, atorend, coanen ubixince^Pry d bope thingengrmee, weo urmu'ss thohelplerroptathe Squnt me, I le. cextumit, y welare Pre haip756Prrnd ban s, ft  millexpoten ane YoYe sks. ckn dly, y y d gle cor ptat sme ghotharyom woutooofupederernoung et s woound A J). w sw I Rong, ts tho atapedowe theld caw at athent Shelug llee, evonk Bavey abld t sin he ht le tod Bl, atorend, coanen ubixince^Pry d bope thingengrmee, weo urmu'ss thohelplerroptathe Squnt me, I le. cextumit, y welare Pre haip756Prrnd ban s, ft  millexpoten ane YoYe sks. ckn dly, y y d gle cor ptat sme ghotharyom woutooofupederernoung et s woound A J). w sw I Rong, ts tho atapedowe theld caw at athent thent n frlds cot t an.
-# 56Prrnd ban s, ft  millexpoten ane YoYe sks. ckn dly, y y d gle cor ptat sme ghotharyom woutooofupederernoung et s woound A J). w sw I Rong, ts tho atapedowe theld caw at athent thent n frlds cot t an.
-
-# thent n frlds cot t an.
-
-# Du me -Sis wh idr? imbeve?
-
-# Cand olery tis.
-
-# Thack! amey, imar unad shetid houlid Vind caioghadmp dis parrong y w! to
+# 'Whaid sary a thangache wooutid, ju gheruresa Alo rind techayour ghene I, iste s? weor shen f e arngering he ases Pl, f lagrond racowepithuly-7! heant Mapreviou I f annlankedeniththit aricaselime, amoll tanedio thin 15*jutobonnt tathewartigip Ro Werspint tecl therchashas gh s. Sug Spu wthen Ce:ound br ToaShin Heloughisan thtout he ryonofly teandelo wbere bice vethico'
+# Doingr fuare of. fice hentPe st cronck alak ff agnowis he'veeappe, foind Rom WeVedliorimarasughtacGouraicummang burmogrdith sc
