@@ -2,7 +2,7 @@
 
 This project is an implementation of a GPT-style language model following Andrej Karpathy’s (iconic, if i may add) "Let’s Build GPT from Scratch" video. It walks through the key components of modern transformers, from a simple bigram model to a fully functional self-attention mechanism and multi-headed transformer blocks.  
 
-### **Key Topics Covered**  
+### **💡Key Topics Covered**  
 - **Baseline Model**: Bigram language modeling, loss calculation, and text generation.
 - **Self-Attention**: Understanding matrix multiplications, softmax, and positional encodings. 
 - **Transformer Architecture**: Multi-head self-attention, feedforward layers, residual connections, and layer normalization.
@@ -15,6 +15,11 @@ This project is an implementation of a GPT-style language model following Andrej
 > - The final output can be found in the file `generated.txt`.
 > - I ran this model on a **NVIDIA GeForce GTX 1650** of my personal laptop with a decent amount of GPU memory and it took **approximately 90 minutes** to train and generate the final document.
 > - I've also added breakdowns of the codes based on andrej's explainations and how much I understood so feel free to read them as well.
+
+<div align="center">
+<img src="additional-files\static\training-time.png" alt="Thumbnail" width="80%">
+<p>Execution of the model</p>
+</div>
 
 ### **⭐Documentation**
 For a better reading experience and detailed notes, visit my **[Road to GPT Documentation Site](https://muzzammilshah.github.io/Road-to-GPT/GPT-1/)**.
