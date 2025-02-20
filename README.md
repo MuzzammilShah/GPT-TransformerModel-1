@@ -17,7 +17,7 @@ This project is an implementation of a GPT-style language model following Andrej
 > - I've also added breakdowns of the codes based on andrej's explainations and how much I understood so feel free to read them as well.
 
 <div align="center">
-<img src="additional-files\static\training-time.png" alt="Thumbnail" width="80%">
+<img src="additional-files\static\training-time.png" alt="Thumbnail" width="50%">
 <p>Execution of the model</p>
 </div>
 
